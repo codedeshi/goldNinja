@@ -1,34 +1,8 @@
-# Pylot MVC (beta)
-Pylot MVC is a lightweight MVC framework built in Python leveraging flask.
+# Ninja Gold
 
-This framework is currently still in development. If you want to play around with it read on or clone the stable version!
+# Technologies used
 
-# Installation
+* FLask
+* Session
 
-First make sure you have pip installed. If you don't have it installed there are great instructions here: https://pip.pypa.io/en/latest/installing.html
-
-Next install virtualenv
-```
-sudo pip install virtualenv
-```
-
-Clone pylot
-```
-PARENT
-git clone -b stable https://github.com/Ketul-Patel/Pylot.git
-```
-
-cd into pylot (or rename and cd in) and source the setup file
-```
-cd Pylot
-. setup
-FOLLOW DIRECTIONS OUTLINED BY SETUP!
-note: there might be some fixes needed here, feel free to send them as FAQ's for this Readme (see below)
-```
-
-Now you can start your development server like so:
-```
-python manage.py runserver
-```
-
-Enjoy! More details/features coming soon!
+A page demonstrating use of session and Flask. It involving accruing gold and risking it all. As a ninja, you are able to farm, mine, rest, and gamble a little to build up a hefty stash. A log is kept of all actions and is updated automatically with game play.
